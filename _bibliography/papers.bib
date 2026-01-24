@@ -1,0 +1,38 @@
+---
+---
+
+@inproceedings{garg2025masked,
+  abstract={Masked Diffusion Models (MDMs) have emerged as one of the most promising paradigms for generative modeling over discrete domains. It is known that MDMs effectively train to decode tokens in a random order, and that this ordering has significant performance implications in practice. This observation raises a fundamental question: can we design a training framework that optimizes for a favorable decoding order?We answer this in the affirmative, showing that the continuous-time variational objective of MDMs, when equipped with multivariate noise schedules, can identify and optimize for a decoding order during training. We establish a direct correspondence between decoding order and the multivariate noise schedule and show that this setting breaks invariance of the MDM objective to the noise schedule. Furthermore, we prove that the MDM objective decomposes precisely into a weighted auto-regressive losses over these orders, which establishes them as auto-regressive models with learnable orders.},
+  title={Masked Diffusion Models are secretly Learned-Order Autoregressive Models},
+  author={Garg, Prateek and Kohli, Bhavya and Sarawagi, Sunita},
+  booktitle={EurIPS 2025 Workshop on Principles of Generative Modeling (PriGM)},
+  url={https://openreview.net/pdf?id=zXO7Af8DZd},
+  year={2025}
+}
+
+@ARTICLE{kohli2025swarm,
+  abstract={Amidst the large-scale deployment of Internet of Things (IoT) networks worldwide, studies have highlighted critical security concerns many of which stem from firmware-related issues. IoT swarms have become more prevalent in industries, smart homes, and agricultural applications and malicious activity on one node can propagate to other network sections. While several remote attestation (RA) techniques have been proposed in the literature, they are limited by their latency, availability, complexity, hardware assumptions, and uncertain access to firmware copies under intellectual property (IP) rights. To address these problems, we present Swarm-Net, a novel swarm attestation technique that uses graph neural networks (GNNs) to exploit the inherent, interconnected, graph-like structure of IoT networks and the runtime information stored in the static random access memory (SRAM). We also present the first datasets on SRAM-based swarm attestation encompassing different types of firmware and edge relationships. In addition, a secure swarm attestation protocol is proposed to ensure authentication, availability, and attestation. Swarm-Net is computationally lightweight and does not require a copy of the firmware. It achieves a 99.96% attestation rate on authentic firmware, 100% detection rate (DR) on anomalous firmware, and 99% DR on propagated anomalies, at a communication overhead and inference latency of ~1 s and ~10-5 s (on a laptop CPU), respectively. In addition to the collected datasets, Swarm-Net’s effectiveness is evaluated on simulated trace replay, random trace perturbation, and dropped attestation responses, showing robustness against such threats. Lastly, we compare Swarm-Net with past works and present a security analysis.},
+  author={Kohli, Varun and Kohli, Bhavya and Aman, Muhammad Naveed and Sikdar, Biplab},
+  journal={IEEE Internet of Things Journal}, 
+  title={Swarm-Net: Firmware Attestation in IoT Swarms Using Graph Neural Networks and Volatile Memory}, 
+  year={2025},
+  volume={12},
+  number={7},
+  pages={8338-8352},
+  keywords={Microprogramming;Random access memory;Internet of Things;Graph neural networks;Security;Hardware;Malware;Flash memories;Memory management;Accuracy;Anomaly detection;graph neural networks (GNNs);Internet of Things (IoT);remote attestation (RA);static random access memory (SRAM);swarm attestation},
+  doi={10.1109/JIOT.2024.3501854}
+}
+
+@INPROCEEDINGS{werner2024seizure,
+  abstract={Epilepsy is the most common, chronic, neurological disease worldwide and is typically accompanied by reoccurring seizures. Neuro implants can be used for effective treatment by suppressing an upcoming seizure upon detection. Due to the restricted size and limited battery lifetime of those medical devices, the employed approach also needs to be limited in size and have low energy requirements. We present an energy-efficient seizure detection approach involving a TC-ResNet and time-series analysis which is suitable for low-power edge devices. The presented approach allows for accurate seizure detection without preceding feature extraction while considering the stringent hardware requirements of neural implants. The approach is validated using the CHB-MIT Scalp EEG Database with a 32-bit floating point model and a hardware suitable 4-bit fixed point model. The presented method achieves an accuracy of 95.28%, a sensitivity of 92.34% and an AUC score of 0.9384 on this dataset with 4-bit fixed point representation. Furthermore, the power consumption of the model is measured with the low-power AI accelerator UltraTrail, which only requires 495 nW on average. Due to this low-power consumption this classification approach is suitable for real-time seizure detection on low-power wearable devices such as neural implants.},
+  author={Werner, Julia and Kohli, Bhavya and Bernardo, Paul Palomero and Gerum, Christoph and Bringmann, Oliver},
+  booktitle={2024 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={Energy-Efficient Seizure Detection Suitable for Low-Power Applications}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Accuracy;Sensitivity;Power demand;Time series analysis;Epilepsy;Neural implants;Brain modeling;Seizure Detection;Time-Series Analysis;CNNs},
+  doi={10.1109/IJCNN60899.2024.10650710}
+}
+
