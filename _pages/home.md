@@ -14,9 +14,11 @@ blog_i: true
 ---
 \[Site under construction\]
 
-I am currently a PhD student working with [Prof. Biplab Sikdar](https://scholar.google.com/citations?user=UR6fy_AAAAAJ) on security and privacy in machine learning, at the National University of Singapore. I graduated with a B.Tech in Electrical Engineering and M.Tech in Artificial Intelligence from Indian Institute of Technology (IIT) Bombay in August 2025. There, I worked with [Prof. Abir De](https://abir-de.github.io/) on information retrieval. Part of this work has recently been accepted at AISTATS 2026 (pending camera-ready). In the past, I have worked with [Prof. Oliver Bringmann](https://scholar.google.com/citations?hl=en&user=pk53ZkAAAAAJ) on developing an edge-device-compatible framework involving temporal convolutions and viterbi decoding for seizure detection. 
+I am currently a PhD student working with [Prof. Biplab Sikdar](https://scholar.google.com/citations?user=UR6fy_AAAAAJ) at the National University of Singapore. I graduated with a B.Tech in Electrical Engineering and M.Tech in Artificial Intelligence from Indian Institute of Technology (IIT) Bombay in July 2025. There, I worked with [Prof. Abir De](https://abir-de.github.io/) on information retrieval using learned permutation matrices and exploring graph summarization using information theoreitc techniques. Part of this work has recently been accepted at AISTATS 2026. 
 
-My broad research focus at the moment is to use machine learning as an interpretable efficient tool to cover for inefficient parts of complex algorithms. To that end, I try to develop frameworks which work closely with theory, with the machine learning parts being used in key areas with a targeted purpose and not simply as large end-to-end black-boxes.
+In the past, I have worked on firmware attestation in IoT, explored neuromorphic computing for AI, and interned under [Prof. Oliver Bringmann](https://scholar.google.com/citations?hl=en&user=pk53ZkAAAAAJ) on developing an edge-device-compatible framework involving temporal convolutions and viterbi decoding for seizure detection. 
+
+My broad research focus at the moment is to use machine learning as an interpretable efficient tool to cover for inefficient parts of complex algorithms. To that end, I try to develop frameworks that work closely with theory, and use machine learning in key areas with a targeted purpose, not simply as large end-to-end black-boxes.
 
 You can find a list of my publications [here](https://scholar.google.com/citations?user=P4vK5dAAAAAJ), and explore my projects on [my GitHub](https://github.com/BhavyaKohli).
 
