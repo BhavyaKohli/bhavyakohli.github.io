@@ -1,5 +1,26 @@
 ---
 ---
+@misc{kohli2026peanut,
+  abstract={Graph Neural Networks (GNNs) have achieved remarkable performance on tasks involving relational data. However, small perturbations to the graph structure can significantly alter GNN outputs, raising concerns about their robustness in real-world deployments. In this work, we explore the core vulnerability of GNNs which explicitly consume graph topology in the form of the adjacency matrix or Laplacian as a means for message passing, and propose PEANUT, a simple, gradient-free, restricted black-box attack that injects virtual nodes to capitalize on this vulnerability. PEANUT is an injection based attack, a paradigm which is widely considered to be more practical and realistic than graph modification attacks, where the attacker is able to modify the original graph structure directly. Our method works at the inference phase, making it an evasion attack, and is applicable almost immediately, since it does not involve lengthy iterative optimizations or parameter learning, which add computational and time overhead. It also does not require training surrogate models, which are susceptible to failure due to differences in model priors and generalization capabilities. PEANUT also does not require any features on the injected node and consequently demonstrates that GNN performance can be significantly deteriorated even with injected nodes with zeros for features, highlighting the significance of effectively designed connectivity in such attacks. Extensive experiments on real-world datasets across three graph tasks demonstrate the effectiveness of our attack despite its simplicity.}
+  title={PEANUT: Perturbations by Eigenvector Alignment for Attacking Graph Neural Networks Under Topology-Driven Message Passing}, 
+  author={Bhavya Kohli and Biplab Sikdar},
+  year={2026},
+  eprint={2603.26136},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2603.26136}, 
+}
+
+@inproceedings{kohli2026learning,
+  abstract={Subsequence retrieval seeks relevant segments in a large corpus given a short query. Existing pairwise metric-based methods are computationally intensive, hard to parallelize, and tied to domain-specific metrics. In this work, we introduce a neural framework that casts subsequence matching as end-to-end alignment with permutation matrices satisfying monotonicity used as differentiable approximate subsequence selectors. Our framework yields fixed-dimensional embeddings for variable-length inputs, and we prove these embeddings are compatible with standard Approximate Nearest Neighbor search methods such as Locality-sensitive hashing (LSH), enabling scalable retrieval. We also impose structural priors on admissible subsequences and integrate them directly into the scoring function. The approach is domain-agnostic and operates on pre-trained representations across modalities. Experiments on real-world datasets from two different domains show strong retrieval performance and substantial speedups, with high parallelism on GPU-accelerated hardware.}
+  title={Learning Right Monotone Permutation Matrices for Neural Subsequence Search},
+  title={Learning Right Monotone Permutation Matrices for Neural Subsequence Search},
+  author={Bhavya Kohli and Soutrik Sarangi and Aziz Shameem and Abir De},
+  booktitle={The 29th International Conference on Artificial Intelligence and Statistics},
+  year={2026},
+  url={https://openreview.net/forum?id=SBgs6trkAD}
+}
+
 
 @inproceedings{garg2025masked,
   abstract={Masked Diffusion Models (MDMs) have emerged as one of the most promising paradigms for generative modeling over discrete domains. It is known that MDMs effectively train to decode tokens in a random order, and that this ordering has significant performance implications in practice. This observation raises a fundamental question: can we design a training framework that optimizes for a favorable decoding order?We answer this in the affirmative, showing that the continuous-time variational objective of MDMs, when equipped with multivariate noise schedules, can identify and optimize for a decoding order during training. We establish a direct correspondence between decoding order and the multivariate noise schedule and show that this setting breaks invariance of the MDM objective to the noise schedule. Furthermore, we prove that the MDM objective decomposes precisely into a weighted auto-regressive losses over these orders, which establishes them as auto-regressive models with learnable orders.},
