@@ -5,8 +5,8 @@ permalink: /
 
 profile:
   align: right
-  image: pfp.jpg
-  image_circular: False # crops the image to make it circular
+  image: pfp_sq.jpg
+  image_circular: True # crops the image to make it circular
 
 news: true  # includes a list of news items --rename updates
 extras: true # includes a list of Extra stuff
@@ -29,18 +29,19 @@ You can find a list of my publications [here](https://scholar.google.com/citatio
 - [Contact me](mailto:{{ site.email | encode_email }})
 - [404](DNE/)
 
-## News
+## News & Updates
 
 <div class="news-wrapper">
   <div class="news-scroll">
     <ul class="news-list">
-      <li><span class="news-date">Jan 2026</span> &raquo; Paper: "Learning Right Monotone Permutation Matrices for Neural Subsequence Search" accepted at the 29th International Conference on Artificial Intelligence and Statistics (AISTATS) 2026</li>
-      <li><span class="news-date">Nov 2025</span> &raquo; Workshop Paper: "Masked Diffusion Models are Secretly Learned-Order Autoregressive Models" accepted at the EurIPS 2025 Workshop on Principles of Generative Modeling (PriGM)</li>
-      <li><span class="news-date">Aug 2025</span> &raquo; Started PhD at the National University of Singapore with Prof. Biplab Sikdar </li>
-      <li><span class="news-date">Jul 2025</span> &raquo; Graduated from IIT Bombay with a Dual Degree in Electrical Engineering and Aritificial Intelligence</li>
-      <li><span class="news-date">Nov 2024</span> &raquo; Paper: "Swarm-Net: Firmware Attestation in IoT Swarms Using Graph Neural Networks and Volatile Memory" published at the IEEE Internet of Things Journal</li>
-      <li><span class="news-date">Mar 2024</span> &raquo; Paper: "Energy-Efficient Seizure Detection Suitable for Low-Power Applications" published at the International Joint Conference on Neural Networks (IJCNN) 2024</li>
-      <li><span class="news-date">May 2023</span> &raquo; Summer internship under Prof. Oliver Bringmann at the University of Tübingen, Germany</li>
+      <li><span class="news-date">Mar 2026</span> Preprint: "PEANUT: Perturbations by Eigenvector Alignment for Attacking Graph Neural Networks Under Topology-Driven Message Passing" uploaded to arxiv (arXiv:2603.26136)</li>
+      <li><span class="news-date">Jan 2026</span> Paper: "Learning Right Monotone Permutation Matrices for Neural Subsequence Search" accepted at the 29th International Conference on Artificial Intelligence and Statistics (AISTATS) 2026</li>
+      <li><span class="news-date">Nov 2025</span> Workshop Paper: "Masked Diffusion Models are Secretly Learned-Order Autoregressive Models" accepted at the EurIPS 2025 Workshop on Principles of Generative Modeling (PriGM)</li>
+      <li><span class="news-date">Aug 2025</span> Started PhD at the National University of Singapore with Prof. Biplab Sikdar </li>
+      <li><span class="news-date">Jul 2025</span> Graduated from IIT Bombay with a Dual Degree in Electrical Engineering and Aritificial Intelligence</li>
+      <li><span class="news-date">Nov 2024</span> Paper: "Swarm-Net: Firmware Attestation in IoT Swarms Using Graph Neural Networks and Volatile Memory" published at the IEEE Internet of Things Journal</li>
+      <li><span class="news-date">Mar 2024</span> Paper: "Energy-Efficient Seizure Detection Suitable for Low-Power Applications" published at the International Joint Conference on Neural Networks (IJCNN) 2024</li>
+      <li><span class="news-date">May 2023</span> Summer internship under Prof. Oliver Bringmann at the University of Tübingen, Germany</li>
     </ul>
   </div>
 </div>
