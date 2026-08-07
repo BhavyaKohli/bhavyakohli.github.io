@@ -1,0 +1,19 @@
+{%- if page.ui_testing -%}
+  <!-- UI Testing live previews -->
+  <script src="{{ '/assets/js/molecular-graphs.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/dotmatrix.js' | relative_url }}"></script>
+  <script>
+    MolecularGraphs.widget("#ui-preview-graphs", {
+      autoSpawn: true,
+      interactive: true,
+      maxGraphs: 12,
+      seedCount: 2,
+      spawnIntervalMin: 30,
+      spawnIntervalMax: 90
+    });
+    DotMatrix.widget("#ui-preview-dotmatrix", {
+      interactive: true,
+      opacity: 1
+    });
+  </script>
+{%- endif -%}
