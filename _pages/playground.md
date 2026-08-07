@@ -4,12 +4,6 @@ permalink: /playground/
 title: Playground
 nav: true
 nav_order: 3
-dropdown: true
-children:
-  - title: Graphs
-    permalink: /playground/graphs/
-  - title: Dot Matrix
-    permalink: /playground/dotmatrix/
 ui_testing: true
 ---
 <style>
