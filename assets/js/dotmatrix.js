@@ -6,7 +6,7 @@
  *    DotMatrix.widget(target, options)       // small styled box
  *    DotMatrix.create(canvas, options)       // low-level, returns { destroy(), sim }
  *
- *  Every tunable is an option; defaults mirror the /testing/ page values.
+ *  Every tunable is an option; defaults mirror the /playground/dotmatrix/ page values.
  */
 (function (global) {
   "use strict";
