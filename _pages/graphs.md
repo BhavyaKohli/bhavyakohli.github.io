@@ -3,7 +3,7 @@ layout: page
 permalink: /playground/graphs/
 title: Graphs
 nav: false
-nav_order: 3
+nav_order: 4
 molecular_graphs: true
 molecular_graphs_opacity: 0.9
 ---
