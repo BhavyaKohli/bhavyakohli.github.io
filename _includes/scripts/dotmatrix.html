@@ -1,0 +1,20 @@
+{%- if page.dotmatrix or page.dotmatrix_background -%}
+  <!-- Dot Matrix -->
+  <script src="{{ '/assets/js/dotmatrix.js' | relative_url }}"></script>
+  {%- if page.dotmatrix -%}
+  <script>
+    DotMatrix.background(
+      "{{ page.dotmatrix_target | default: "#particles-hero" }}",
+      { opacity: {{ page.dotmatrix_opacity | default: 0.5 }}, interactive: true }
+    );
+  </script>
+  {%- elsif page.dotmatrix_background -%}
+  <script>
+    (function () {
+      var raw = {{ page.dotmatrix_background | default: 0.5 }};
+      var opacity = typeof raw === "number" ? raw : 0.5;
+      DotMatrix.background(null, { opacity: opacity });
+    })();
+  </script>
+  {%- endif -%}
+{%- endif -%}
